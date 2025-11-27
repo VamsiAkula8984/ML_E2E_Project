@@ -22,7 +22,7 @@ class DataIngestion:
         logging.info("Data Ingestion started...")
         try:
             #reading data from DB or any other source
-            df = pd.read_csv('notebook\data\stud.csv')
+            df = pd.read_csv('notebook\\data\\stud.csv')
             logging.info('Dataset reading as dataframe successful!!')
 
             #creating artifacts directory to save train, test and raw data.csv files
